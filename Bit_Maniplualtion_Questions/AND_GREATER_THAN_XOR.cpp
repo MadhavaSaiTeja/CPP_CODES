@@ -9,7 +9,7 @@ If the opposite is asked then take the count as all the pairs (n*(n-1))/2
 and subtract the pairs for which the AND is greater than XOR.
 */
 //code :
-    #incldue <bits/stdc++.h>
+    #include <bits/stdc++.h>
     using namespace std;
     int n; cin>>n;
     vector<int>arr(n); for(int i=0;i<n;i++)cin>>arr[i];
