@@ -7,6 +7,8 @@ The observation is that if the MSB of two numbers is set then their bitwise AND 
 
 If the opposite is asked then take the count as all the pairs (n*(n-1))/2
 and subtract the pairs for which the AND is greater than XOR.
+
+Problem Link : https://codeforces.com/contest/1420/problem/B
 */
 //code :
     #include <bits/stdc++.h>
