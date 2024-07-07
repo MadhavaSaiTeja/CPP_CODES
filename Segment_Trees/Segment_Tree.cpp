@@ -49,7 +49,7 @@ void Solve() {
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
-    int seg[4 * n];
+    int seg[n * 4];
     build(0, 0, n - 1, arr, seg);
     while (q--) {
         int type;
