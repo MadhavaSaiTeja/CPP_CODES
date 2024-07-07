@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long
+#define int ll
+
 void subsetSum(int n, vector<int> &a, int ind, int sum, vector<int> &half) {
     if (ind == n) {
         half.push_back(sum);
@@ -10,7 +13,7 @@ void subsetSum(int n, vector<int> &a, int ind, int sum, vector<int> &half) {
     subsetSum(n, a, ind + 1, sum, half);
 }
 
-int main() {
+int32_t main() {
 
     int n, x;
     cin >> n >> x;
